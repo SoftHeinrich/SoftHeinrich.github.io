@@ -1,0 +1,24 @@
+{
+  "orcid": "0009-0002-7676-5010",
+  "me": "Haoyu Liu",
+  "exclude_dois": ["10.5281/zenodo.18891216"],
+  "extras": [
+    {
+      "doi": "10.1109/ICSA65012.2025.00011",
+      "title": "Enabling Architecture Traceability by LLM-based Architecture Component Name Extraction",
+      "authors": ["Dominik Fuchß", "Haoyu Liu", "Tobias Hey", "Jan Keim", "Anne Koziolek"],
+      "venue": "2025 IEEE 22nd International Conference on Software Architecture (ICSA)",
+      "year": 2025, "month": 3, "day": 31
+    }
+  ],
+  "venue_overrides": {
+    "10.1145/3803437.3805789": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (FSE Companion ’26)"
+  },
+  "rankings": {
+    "10.1109/ICSA66085.2026.00011": {"ccf": "C", "core": "A"},
+    "10.1109/ICSA65012.2025.00011": {"ccf": "C", "core": "A"},
+    "10.1109/ICSE55347.2025.00186": {"ccf": "A", "core": "A*"},
+    "10.1109/saner60148.2024.00070": {"ccf": "B", "core": "A"},
+    "10.1145/3807453": {"ccf": "B"}
+  }
+}
