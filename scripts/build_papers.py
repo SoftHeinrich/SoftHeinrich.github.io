@@ -35,8 +35,7 @@ for x in cfg["extras"]:  # ORCID wins if it later gains the same DOI
     papers.setdefault(x["doi"].lower(), dict(doi=x["doi"], title=x["title"], venue=x["venue"],
         authors=x["authors"], date=(x["year"], x.get("month", 0), x.get("day", 0))))
 
-out = ['<h1>Papers</h1>',
- f'<p class="meta">Source: <a href="https://orcid.org/{cfg["orcid"]}">ORCID</a> plus manually added entries; venues from Crossref; conference rankings from the <a href="https://portal.core.edu.au/conf-ranks/">CORE portal</a> (ICORE2026). CCF (2022 list) ranks are as cross-checked on third-party copies of the list. Rankings are shown only where confirmed.</p>']
+out = ['<h1>Papers</h1>']
 year = None; items = []
 def flush():
     if items: out.append('<ul class="items">\n' + "\n".join(items) + '\n</ul>')
